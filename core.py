@@ -15,7 +15,7 @@ if not _api_key:
     raise ValueError("GROQ_API_KEY not found. Add it to your .env file.")
 
 client = Groq(api_key=_api_key)
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 
 # ---------- Schemas ----------
